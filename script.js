@@ -23,8 +23,8 @@ $(document).ready(function() {
 
     }
 
-    // If the word starts with a vowel return the result the wordStartsWithVowelTransformation function.
-    // Otherwise return the result of the wordStartsWithVowelTransformation.
+    // If the word starts with a vowel return the result of wordStartsWithVowelTransformation.
+    // Otherwise return the result of wordStartsWithVowelTransformation.
     function toPigLatinWord(word) {
 
     }
