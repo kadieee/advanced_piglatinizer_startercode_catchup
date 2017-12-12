@@ -29,13 +29,8 @@ $(document).ready(function() {
 
     }
 
-    //Iterates through all the words in the sentence and transforms each word to pig latin
-    function toPigLatinSentence(sentence) {
-
-    }
-
     // Create a click handler that takes in the value from the input box.
-        // Gets a sentence from an input
-        // transfrom the sentence to pig latin
+        // Gets a word from an input
+        // transfrom the word to pig latin
         // Displays the result on the screen in the output element
 });
