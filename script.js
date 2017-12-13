@@ -14,12 +14,12 @@ $(document).ready(function() {
     }
 
     // Appends "yay" to the end of the word
-    function wordStartsWithVowelTransformation(word) {
+    function appendYayToWord(word) {
 
     }
 
     // Moves the first consonant to the end of the word and appends "ay" to the end of the word
-    function wordStartsWithConsonantTransformation(word) {
+    function convertWordWithConsonant(word) {
 
     }
 
