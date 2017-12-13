@@ -29,8 +29,8 @@ $(document).ready(function() {
 
     }
 
-    // Create a click handler that takes in the value from the input box.
-        // Gets a word from an input
-        // transfrom the word to pig latin
+    // Create a click handler that takes is triggered when the user clicks the translate button.
+        // Gets a word from the input box
+        // Transforms the word to pig latin
         // Displays the result on the screen in the output element
 });
