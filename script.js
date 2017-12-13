@@ -1,3 +1,4 @@
+// quick fix for Cloud9 warning:
 /* global $ */
 
 // Pig Latin takes the first consonant (or consonant cluster) of an English 
@@ -13,18 +14,19 @@ $(document).ready(function() {
 
     }
 
-    // Appends "yay" to the end of the word
+    // Appends "yay" to the end of the word and returns the word.
     function appendYayToWord(word) {
 
     }
 
-    // Moves the first consonant to the end of the word and appends "ay" to the end of the word
+    // Moves the first consonant to the end of the word, appends "ay" to the end of the word,
+    // and returns the word.
     function convertWordWithConsonant(word) {
 
     }
 
-    // If the word starts with a vowel return the result of wordStartsWithVowelTransformation.
-    // Otherwise return the result of wordStartsWithVowelTransformation.
+    // If the word starts with a vowel, return the result of appendYayToWord.
+    // Otherwise, return the result of convertWordWithConsonant.
     function convertWordToPigLatin(word) {
 
     }
