@@ -7,15 +7,8 @@
 // igpay, banana becomes ananabay, and aadvark becomes aadvarkway.
 
 $(document).ready(function() {
-
-    // This function should return true if the input word starts with a vowel,
-    // otherwise it should return false.
-    function wordStartsWithVowel(word) {
-    if (word.charAt(0)==="e"){
-        return true;
-    }
-}
-
+    
+    
 var testWord2 = "elephant";
 var testResult2 = appendYayToWord(testWord2);
 
@@ -33,11 +26,11 @@ var testResult3 = appendYayToWord(testWord2);
     // and returns the word.
     
     function convertWordWithConsonant(word) {
-     var oding="coding".substring(1);
+     var oding=word .substring(1);
      var c= word.charAt(0);
-     var fullword=oding+c;
-     var full="odingc"+"ay";
-     return word;
+     var fullword="oding"+"c";
+     var full="fullword"+"ay";
+     return full;
 }
 var testWord4 = "coding";
 var testResult4 = convertWordWithConsonant(testWord3);
@@ -52,9 +45,30 @@ var testResult4 = convertWordWithConsonant(testWord3);
     else{
         return (convertWordWithConsonant(word))
     }
+    }
+
+    // This function should return true if the input word starts with a vowel,
+    // otherwise it should return false.
+    function wordStartsWithVowel(word) {
+    if (word.charAt(0)==="e"){
+        return true;
+    }
+    }
+    
+    $("#translate").click(function(){
+        $("#word").val();
+        var word=$("#word").val();
+        convertWordToPigLatin(word);
+        var save=convertWordToPigLatin(word);
+        $("#output").append(save);
+    });
+    
+});
+
 
     // Create a click handler that takes is triggered when the user clicks the translate button.
         // Gets a word from the input box
         // Transforms the word to pig latin
         // Displays the result on the screen in the output element
-});
+        
+
